@@ -1,0 +1,84 @@
+# ==========================================
+# Hugo
+# ==========================================
+
+# Generated website output
+/public/
+
+# Hugo generated resources/cache
+/resources/_gen/
+
+# Hugo build lock file
+.hugo_build.lock
+
+# Hugo generated stats
+hugo_stats.json
+
+
+# ==========================================
+# Environment variables / secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# Local secrets
+*.secret
+*.secrets
+
+
+# ==========================================
+# Node.js
+# ==========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ==========================================
+# Azure Static Web Apps CLI
+# ==========================================
+
+.swa/
+
+
+# ==========================================
+# macOS
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ==========================================
+# Windows
+# ==========================================
+
+Thumbs.db
+Desktop.ini
+
+
+# ==========================================
+# Editors / IDEs
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.log
+.cache/
